@@ -1,25 +1,23 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+# https://vitepress.dev/reference/default-theme-home-page 首页配置
 layout: home
 
 hero:
-  name: "ysy-docs"
-  text: "说明文档"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  name: ""
+  text: "组件说明文档"
+  tagline: ""
+#  actions:
+#    - theme: brand
+#      text: 联系方式
+#    - theme: alt
+#      text: 打赏
 
 features:
-  - title: Feature A
+  - title: div-splitter
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: qrcode
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: code-diff
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
