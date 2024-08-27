@@ -14,13 +14,13 @@ hero:
 
 features:
   - title: div-splitter
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 布局组件，div上下左右分割，拖拽调整比例。
     link: '/1.div-splitter/README.md'
   - title: qrcode
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 二维码组件，支持汉字转二维码。
     link: '/2.qrcode/README.md'
   - title: code-diff
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 代码对比组件。
     link: '//3.code-diff/README.md'
 ---
 

@@ -1,20 +1,28 @@
 # VUE3 div分割(div-splitter-v3)
 
-- 基于 VUE 3.x
-
-[div-splitter-v2  vue2版本源码](https://gitee.com/ysy-do-it_admin/div-splitter-v2)
-
-[div-splitter-v3  vue3版本源码](https://gitee.com/ysy-do-it_admin/DivSplitterV3)
+- 基于 VUE
 
 ## 安装与使用
 
-### 安装
+### vue2 安装引用
 
+```
+npm install div-splitter-v2
+```
+引用 div-splitter-v2
+
+```ts
+import DivSplitterV2 from 'div-splitter-v2'
+import 'div-splitter-v2/DivSplitterV2.css'
+
+Vue.use(DivSplitterV2);
+```
+
+### vue3 安装引用
 ```
 npm install div-splitter-v3
 ```
-
-### 引用 div-splitter-v3
+引用 div-splitter-v3
 
 ```ts
 import App from './App.vue';
