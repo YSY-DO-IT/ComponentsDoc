@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: ""
-  text: "组件说明文档"
+  text: "说明文档"
   tagline: ""
 #  actions:
 #    - theme: brand
@@ -15,9 +15,12 @@ hero:
 features:
   - title: div-splitter
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: '/1.div-splitter/README.md'
   - title: qrcode
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: '/2.qrcode/README.md'
   - title: code-diff
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: '//3.code-diff/README.md'
 ---
 

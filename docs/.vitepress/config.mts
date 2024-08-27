@@ -10,19 +10,22 @@ export default defineConfig({
         /*导航菜单项的配置 右上角*/
         nav: [
             {text: 'Home', link: '/'},
-            {text: 'Docs', link: '/markdown-examples'}
+            {text: 'Docs', link: '/1.div-splitter/README.md'}
         ],
+
         /*导航栏中展示带有图标的社交帐户链接*/
         socialLinks: [
             {icon: 'github', link: 'https://ysy-do-it.github.io/ysy-docs'}
         ],
+
         /*左侧栏*/
         sidebar: [
             {
                 text: 'Docs',
                 items: [
-                    {text: 'div-splitter', link: '/markdown-examples'},
-                    {text: 'qrcode', link: '/api-examples'},
+                    {text: 'div-splitter', link: '/1.div-splitter/README.md'},
+                    {text: 'qrcode', link: '/2.qrcode/README.md'},
+                    {text: 'code-diff', link: '/3.code-diff/README.md'},
                 ]
             }
         ],
