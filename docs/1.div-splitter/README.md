@@ -49,7 +49,7 @@ app.use(DivSplitterV3);
 </DivLR>
 ```
 
-<img src="https://gitee.com/ysy-do-it_admin/DivSplitterV3/raw/master/public/divsplitter.gif"  />
+<img src="https://github.com/YSY-DO-IT/ysy-docs/blob/main/docs/1.div-splitter/divsplitter.gif"  />
 
 # 开发文档（API）
 

@@ -15,7 +15,7 @@ export default defineConfig({
 
         /*导航栏中展示带有图标的社交帐户链接*/
         socialLinks: [
-            {icon: 'github', link: 'https://ysy-do-it.github.io/ysy-docs'}
+            {icon: 'github', link: 'https://ysy-do-it.github.io/ysy-docs/'}
         ],
 
         /*左侧栏*/
