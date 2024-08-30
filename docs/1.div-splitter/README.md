@@ -4,7 +4,7 @@
 
 ## 安装与使用
 
-### vue2 安装引用
+### vue2 安装
 
 ```
 npm install div-splitter-v2
@@ -26,8 +26,8 @@ npm install div-splitter-v3
 
 ```ts
 import App from './App.vue';
-
 const app = createApp(App);
+
 import '../node_modules/1.div-splitter-v3/style.css'; //引入组件样式
 import DivSplitterV3 from '1.div-splitter-v3';
 
@@ -49,7 +49,7 @@ app.use(DivSplitterV3);
 </DivLR>
 ```
 
-<img src="https://github.com/YSY-DO-IT/ysy-docs/blob/main/docs/1.div-splitter/divsplitter.gif"  />
+<img src="https://raw.githubusercontent.com/YSY-DO-IT/ysy-docs/main/docs/1.div-splitter/divsplitter.gif"  />
 
 # 开发文档（API）
 

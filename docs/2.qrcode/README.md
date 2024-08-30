@@ -2,8 +2,6 @@
 
 - 基于 VUE 2.x
 
-[qrcode-v2  vue2版本源码](https://gitee.com/ysy-do-it_admin/qrcode-v2)
-
 ## 安装与使用
 
 ### 安装
@@ -30,7 +28,7 @@ Vue.use(QrcodeV2);
 <QrCode :margin="2" :width="200" showContent value="测试202402020090"></QrCode>
 ```
 
-<img src="https://gitee.com/ysy-do-it_admin/qrcode-v2/raw/master/public/demo.png"  />
+<img src="https://raw.githubusercontent.com/YSY-DO-IT/ysy-docs/main/docs/2.qrcode/demo.png"  />
 
 # 开发文档（API）
 

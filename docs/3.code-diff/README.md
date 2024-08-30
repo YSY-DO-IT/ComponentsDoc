@@ -1,16 +1,14 @@
 # VUE2 二维码生成组件(code-diff-v2)
 
-- 基于 VUE 2.x
+- 基于 VUE
 
 ## 安装与使用
 
-### 安装
+### vue2 安装
 
 ```
 npm install code-diff-v2
 ```
-
-### 引用 code-diff-v2
 
 ```ts
 import Vue from 'vue';
@@ -22,6 +20,23 @@ import 'code-diff-v2/CodeDiffV2.css';
 Vue.use(CodeDiffV2);
 ```
 
+### vue3 安装
+
+```
+npm install code-diff-v3
+```
+
+```ts
+import App from './App.vue';
+const app = createApp(App);
+
+import CodeDiffV3 from 'code-diff-v3';
+import 'code-diff-v3/CodeDiffV3.css';
+
+app.use(CodeDiffV3);
+```
+
+
 ### 使用组件
 
 ```html
@@ -30,11 +45,11 @@ Vue.use(CodeDiffV2);
   <template #leftTitle> 标准</template>
   <template #rightTitle> 实际</template>
 </CodeDiff>
-```
 
-`showStr(str) {
-console.log('str ----- ', str);
-},`
+showStr(str) {
+  console.log('str ----- ', str);
+},
+```
 
 # 开发文档（API）
 
