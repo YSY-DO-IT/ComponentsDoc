@@ -21,6 +21,6 @@ features:
     link: '/2.qrcode/README.md'
   - title: code-diff
     details: 代码对比组件。
-    link: '//3.code-diff/README.md'
+    link: '/3.code-diff/README.md'
 ---
 

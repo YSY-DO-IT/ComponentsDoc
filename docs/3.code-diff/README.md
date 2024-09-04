@@ -1,4 +1,4 @@
-# VUE2 二维码生成组件(code-diff-v2)
+# VUE 文本对比组件(code-diff)
 
 - 基于 VUE
 
@@ -60,6 +60,7 @@ showStr(str) {
 | oldString  | String  | ''    | 文本原始值  |
 | newString  | String  | ''    | 文本新值   |      |
 | hideHeader | Boolean | false | 是否影藏头部 |
+| disabled    | Boolean | false | 是否禁用编辑 |
 
 ## Events事件列表
 
