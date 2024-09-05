@@ -28,6 +28,7 @@ npm install code-diff-v3
 
 ```ts
 import App from './App.vue';
+
 const app = createApp(App);
 
 import CodeDiffV3 from 'code-diff-v3';
@@ -35,7 +36,6 @@ import 'code-diff-v3/CodeDiffV3.css';
 
 app.use(CodeDiffV3);
 ```
-
 
 ### 使用组件
 
@@ -47,7 +47,7 @@ app.use(CodeDiffV3);
 </CodeDiff>
 
 showStr(str) {
-  console.log('str ----- ', str);
+console.log('str ----- ', str);
 },
 ```
 
@@ -55,12 +55,13 @@ showStr(str) {
 
 ## Attributes属性列表
 
-| 名称         | 类型      | 默认值   | 描述     |
-|------------|---------|-------|--------|
-| oldString  | String  | ''    | 文本原始值  |
-| newString  | String  | ''    | 文本新值   |      |
-| hideHeader | Boolean | false | 是否影藏头部 |
-| disabled    | Boolean | false | 是否禁用编辑 |
+| 名称         | 类型      | 默认值   | 描述                            |
+|------------|---------|-------|-------------------------------|
+| oldString  | String  | ''    | 文本原始值                         |
+| newString  | String  | ''    | 文本新值                          |      |
+| hideHeader | Boolean | false | 是否影藏头部                        |
+| disabled   | Boolean | false | 是否禁用编辑                        |
+| showType   | String  | 'all' | 显示区域, all:全部，left:左侧，right:右侧 |
 
 ## Events事件列表
 
